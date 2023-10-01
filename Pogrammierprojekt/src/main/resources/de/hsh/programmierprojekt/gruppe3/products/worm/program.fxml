@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.hsh.programmierprojekt.gruppe3.products.worm.view.ProgramView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+
+<fx:root type="ProgramView" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity"
+      xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+   <Label fx:id="programName" text="Label"/>
+   <Button fx:id="button" disable="true" onAction="#runProgram" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="run"/>
+   <ChoiceBox fx:id="vulnerabilities" visible="false" prefWidth="150.0"/>
+   <ChoiceBox fx:id="targets" visible="false" prefWidth="150.0"/>
+</fx:root>

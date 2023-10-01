@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.hsh.programmierprojekt.gruppe3.products.worm.view.MatrixAnimationCanvas?>
+<?import de.hsh.programmierprojekt.gruppe3.products.worm.view.NetworkView?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<StackPane fx:id="worm_root" fx:controller="de.hsh.programmierprojekt.gruppe3.products.worm.controller.WormController"
+           maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="480.0" minWidth="640.0"
+           stylesheets="@worm.css" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+    <MatrixAnimationCanvas fx:id="backgroundAnimation" height="${worm_root.height}" width="${worm_root.width}" />
+    <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"
+                prefHeight="400.0" prefWidth="600.0" styleClass="no-back">
+        <top>
+            <HBox prefHeight="30.0" prefWidth="200.0" styleClass="control-box" BorderPane.alignment="CENTER">
+                <Label text="Computers infected:"/>
+                <Label text="1"/>
+                <MenuButton mnemonicParsing="false" text="MenuButton">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1"/>
+                        <MenuItem mnemonicParsing="false" text="Action 2"/>
+                    </items>
+                </MenuButton>
+            </HBox>
+        </top>
+        <right>
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" maxHeight="1.7976931348623157E308"
+                        maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" styleClass="no-back">
+                <VBox fx:id="programList" prefHeight="200.0" prefWidth="200.0" styleClass="control-box"/>
+            </ScrollPane>
+        </right>
+        <center>
+            <NetworkView fx:id="netView" styleClass="no-back" BorderPane.alignment="CENTER"/>
+        </center>
+    </BorderPane>
+</StackPane>

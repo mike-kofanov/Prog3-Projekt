@@ -1,0 +1,10 @@
+Im welchen Jahr wurde der Conficker Wurm zuerst entdeckt?;1999;false;2003;false;2008;true;2012;false
+Gegen welchen Staat wurde der Stuxnet Wurm verwendet?;Nord Korea;false;Iran;true;China;false;Russland;false
+Was versteht man unter dem Begriff 'Phishing'?;Der englische Begriff für 'Angeln';false;Name eines berühmten Hackers;false;Ein Versuch Schadware bei einem Nutzer zu installieren;false;Versuch Daten vom Nutzer zu bekommen über gefälschte Webseiten und Emails;true
+Wann wurde die erste Spam Email verschickt?;1978;true;1970;false;1985;false;1999;false;
+Wer wurde von seiner Universität verwiesem, nachdem dieser den Uninetzwerk gehackt hatte?;Steve Jobs;false;Steve Wozniak;true;Marc Zuckerberg;false;Kevin Mitnick;false
+Wie alt war der Hacker, der im Jahre 1983 das Pentagon gehackt hatte?;17;true;12;false;25;false;15;false
+Wie alt war die jüngste Person, die für Cyberkriminalität verurteilt wurde?;17;false;15;true;12;false;25;false
+Was ist 'Social Engineering' ?;Der Name eines bekannten Hackerring;false;Eine Fachrichtung in Soziologie;false;Ein Art von Software Engineering;false;Der Versuch eine Person zu manipulieren, damit diese vertrauliche Informationen weitergibt;true
+Was ist das besondere im Film 'Matrix' ?;Die Hacking tools, die benutzt wurden, waren echt;true;Die grünen Zeichenkaskaden des Matrix-codes ist in realität ein echtes Virus;false;Es wird ein Phishing Angriff im Film gezeigt;false;Bei der Produktion des Films wurde ein Rechner mit einem Trojaner infiziert;false
+Was ist ein Black Hat Hacker?;Ein Spitzname eines berühmten Hackers;false;Ein Hacker, der eine schwarze Mütze trägt;false;Ein Hacker, der nicht legal seiner Tätigkeit nachgeht;true;Eine Hackerorganisation;false

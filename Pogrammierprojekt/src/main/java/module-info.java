@@ -1,0 +1,34 @@
+module Spielesammlung {
+    requires javafx.controls;
+    requires javafx.fxml;
+	requires java.desktop;
+    requires javafx.media;
+    opens de.hsh.programmierprojekt.gruppe3.core to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.worm.view to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.worm.controller to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.virus_defender.application to javafx.graphics;
+    opens de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.menu to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.quiz  to javafx.fxml, javafx.media;
+    opens de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.difficulty  to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.gameEnd  to javafx.fxml, javafx.media;
+    opens de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.gameIntro  to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.model;
+    opens de.hsh.programmierprojekt.gruppe3.products.snake.game to javafx.fxml;
+    opens de.hsh.programmierprojekt.gruppe3.products.snake.util  to javafx.fxml, javafx.media;
+    exports de.hsh.programmierprojekt.gruppe3.core;
+    exports de.hsh.programmierprojekt.gruppe3.products.nonogramm.app;
+    exports de.hsh.programmierprojekt.gruppe3.products.nonogramm.bou;
+    exports de.hsh.programmierprojekt.gruppe3.products.nonogramm.per;
+    exports de.hsh.programmierprojekt.gruppe3.products.worm.view;
+    exports de.hsh.programmierprojekt.gruppe3.products.worm.model;
+    exports de.hsh.programmierprojekt.gruppe3.products.worm.controller;
+    exports de.hsh.programmierprojekt.gruppe3.products.worm.util;
+    exports de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.menu;
+    exports de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.quiz;
+    exports de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.difficulty;
+    exports de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.gameEnd;
+    exports de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.app.gameIntro;
+    exports de.hsh.programmierprojekt.gruppe3.products.fsociety_quiz.model;
+    exports de.hsh.programmierprojekt.gruppe3.products.snake.game;
+    exports de.hsh.programmierprojekt.gruppe3.products.snake.util;
+}

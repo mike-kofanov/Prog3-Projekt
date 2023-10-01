@@ -1,0 +1,18 @@
+.control-box {
+    -fx-background-color: lime;
+    -fx-border-color: green;
+    -fx-border-insets: 1;
+    -fx-border-width: 2;
+}
+
+#worm_root {
+    -fx-background-color: black;
+}
+
+.viewport {
+    -fx-background-color: transparent;
+}
+
+.no-back {
+    -fx-background-color: transparent;
+}
